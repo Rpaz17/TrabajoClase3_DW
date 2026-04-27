@@ -27,6 +27,10 @@ function SUBTRACT (a,b) {
     return a-b;
 }
 
+function MULTIPLY (a,b) {
+    return a*b;
+}
+
 function clearDisplay() {
     display.value = "";
     firstNumber = "";
