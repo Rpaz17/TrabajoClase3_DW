@@ -23,6 +23,10 @@ function SUM (a,b) {
     return a+b;
 }
 
+function SUBTRACT (a,b) {
+    return a-b;
+}
+
 function clearDisplay() {
     display.value = "";
     firstNumber = "";
