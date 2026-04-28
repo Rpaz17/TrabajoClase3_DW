@@ -35,7 +35,7 @@ function DIVIDE (a,b) {
     if (b === 0) {
         alert("Cannot divide by zero");
         return null;
-    }
+    }       
     return a/b;
 }
 
