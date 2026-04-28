@@ -1,2 +1,2 @@
 # TrabajoClase3_DW
-Solo abre el index.html en tu navegador de preferencia y listo!
+Asegurate de tener la imagen .webp y el script.js en la misma carpeta que index.html, luego abre el index.html en tu navegador de preferencia y listo!
