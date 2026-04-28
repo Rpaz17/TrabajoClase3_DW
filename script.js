@@ -39,6 +39,32 @@ function DIVIDE (a,b) {
     return a/b;
 }
 
+function calculate() {
+    secondnumber = parseFloat(display.value);
+    let result;
+    switch(operator) {
+        case "+":
+            result = SUM(firstnumber, secondnumber);
+            break;
+        case "-":
+            result = SUBTRACT(firstnumber, secondnumber);
+            break;
+        case "*":
+            result = MULTIPLY(firstnumber, secondnumber);
+            break;
+        case "/":
+            result = DIVIDE(firstnumber, secondnumber);
+            break;
+        default:
+            alert("Invalid operator");
+            return;
+    }
+    display.value = result;
+    firstnumber = result;
+    secondnumber = "";
+    operator = "";
+}
+
 function clearDisplay() {
     display.value = "";
     firstNumber = "";
